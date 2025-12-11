@@ -5,6 +5,6 @@ services:
     volumes:
       - type: bind
         source: .
-        target: /workspaces/2ch-supabase
+        target: /workspaces/chat-supabase
         consistency: cached
     init: true
